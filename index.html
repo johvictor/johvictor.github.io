@@ -24,10 +24,11 @@
 </head>
 <body>
     <main id="container">
+        <!--LATERAL ESQUERDA-->
         <aside class="bio-container">
             <h2>João Victor</h2>
                 <!--Import da imagem-->
-                    <img src="img/port.png" alt="João Victor">
+                    <img src="img/perfil1.png" alt="João Victor">
             <p>Olá, meu nome é João Victor e sou <span class="highlight">estudante de programação</span></p>
             <p id="welcome-text">Seja bem-vindo!</p>
         <!--Redes sociais-->
@@ -40,47 +41,44 @@
                 <ion-icon name="mail-outline"></ion-icon><a href="mailto:jvsantana2013@gmail.com">jvsantana2013@gmail.com</a>
             </div>
         </aside>
+        <!--Centro-->
         <section id="about-container">
             <h1 id="name">João Victor</h1>
             <p id="title"><span class="highlight">Estudante de programação</span></p>
             <p class="description"> Estou cursando graduação em <span class="highlight">Análise e Desenvolvimento de Sistemas</span> 
                 no Centro Universitário Senac Santo Amaro, onde tenho a oportunidade de aprimorar minhas habilidades 
                 em programação e desenvolver projetos incríveis. Meu foco principal é o desenvolvimento <span class="highlight">back-end</span>, com a linguagem <span class="highlight">Java</span>.</p>
-            <a href="https://github.com/johvictor" id="btn_project"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <!--Btn para github-->
+                <a href="https://github.com/johvictor" id="btn-project"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <!--SKILLS-->
+                <h2 id="skills-section-title">Minhas Skills</h2>     
+                <p class="description">Conheça as tecnologias que domino:</p>
             
-            <h2 id="skills-section-title">Minhas Skills</h2>     
-            <p class="description">Conheça as tecnologias que domino:</p>
-            <!--Front end-->
-                <div id="skills-container">
-                    <div class="skilss-box">
+            <div id="skills-container">
+            <!--Front end-->    
+                    <div class="skills-box">
                         <p class="skills-title">Front-end</p>
                         <i class="devicon-html5-plain colored"></i>
                         <i class="devicon-css3-plain colored"></i>
                         <i class="devicon-javascript-plain colored"></i>
                     </div>
-                </div>
             <!--Back end--> 
-                <div id="skills-container">
-                    <div class="skilss-box">
-                        <p class="skills-title">Front-end</p>
-                        <i class="devicon-java-plain colored"></i>
-                        <i class="devicon-python-plain colored"></i>
-                    </div>    
-                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>    
             <!--Database-->
-                <div id="skills-container">
-                    <div class="skilss-box">
-                        <p class="skills-title">Databases</p>
-                         <i class="devicon-mysql-plain colored"></i>
-                    </div>
-                </div>   
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    </div>  
             <!--Controle de versão-->
-                <div id="skills-container">
-                    <div class="skilss-box">
-                        <p class="skills-title">Controle de Versão</p>
-                        <i class="devicon-git-plain colored"></i>
-                    </div>
-                </div>   
+                <div class="skills-box">
+                    <p class="skills-title">Controle de Versão</p>
+                    <i class="devicon-git-plain colored"></i>
+                </div>
+            </div>   
         </section>
     </main>
 
