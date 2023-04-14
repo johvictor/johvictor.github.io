@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio João Victor</title>
+    <!--Google Fonts
+    
+        Importe de fontes do Google fonts
+    -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Dev Icon Fonts
+    
+        Importa de logos e imagens
+
+    -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        
+     <!--CSS do projeto-->
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="container">
+        <aside class="bio-container">
+            <h2>João Victor</h2>
+                <!--Import da imagem-->
+                    <img src="img/port.png" alt="João Victor">
+            <p>Olá, meu nome é João Victor e sou <span class="highlight">estudante de programação</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+        <!--Redes sociais-->
+            <ul id="social-container">
+                <li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-santana-ribeiro-a23951187/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/_johvictor/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        <!--Link email-->
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:jvsantana2013@gmail.com">jvsantana2013@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">João Victor</h1>
+            <p id="title"><span class="highlight">Estudante de programação</span></p>
+            <p class="description"> Estou cursando graduação em <span class="highlight">Análise e Desenvolvimento de Sistemas</span> 
+                no Centro Universitário Senac Santo Amaro, onde tenho a oportunidade de aprimorar minhas habilidades 
+                em programação e desenvolver projetos incríveis. Meu foco principal é o desenvolvimento <span class="highlight">back-end</span>, com a linguagem <span class="highlight">Java</span>.</p>
+            <a href="https://github.com/johvictor" id="btn_project"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            
+            <h2 id="skills-section-title">Minhas Skills</h2>     
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <!--Front end-->
+                <div id="skills-container">
+                    <div class="skilss-box">
+                        <p class="skills-title">Front-end</p>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                </div>
+            <!--Back end--> 
+                <div id="skills-container">
+                    <div class="skilss-box">
+                        <p class="skills-title">Front-end</p>
+                        <i class="devicon-java-plain colored"></i>
+                        <i class="devicon-python-plain colored"></i>
+                    </div>    
+                </div>
+            <!--Database-->
+                <div id="skills-container">
+                    <div class="skilss-box">
+                        <p class="skills-title">Databases</p>
+                         <i class="devicon-mysql-plain colored"></i>
+                    </div>
+                </div>   
+            <!--Controle de versão-->
+                <div id="skills-container">
+                    <div class="skilss-box">
+                        <p class="skills-title">Controle de Versão</p>
+                        <i class="devicon-git-plain colored"></i>
+                    </div>
+                </div>   
+        </section>
+    </main>
+
+    <!--Ion icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
